@@ -10,7 +10,7 @@ sd-1/controlnet/mlsd:
    recommended: False
 sd-1/controlnet/depth:
    repo_id: lllyasviel/control_v11f1p_sd15_depth
-   recommended: True
+   recommended: False
 sd-1/controlnet/normal_bae:
    repo_id: lllyasviel/control_v11p_sd15_normalbae
    recommended: False
@@ -28,13 +28,13 @@ sd-1/controlnet/openpose:
    recommended: True
 sd-1/controlnet/scribble:
    repo_id: lllyasviel/control_v11p_sd15_scribble
-   recommended: True
+   recommended: False
 sd-1/controlnet/softedge:
    repo_id: lllyasviel/control_v11p_sd15_softedge
    recommended: False
 sd-1/controlnet/shuffle:
    repo_id: lllyasviel/control_v11e_sd15_shuffle
-   recommended: False
+   Recommended: False
 sd-1/controlnet/tile:
    repo_id: lllyasviel/control_v11f1e_sd15_tile
    recommended: False
@@ -70,85 +70,114 @@ sd-1/lora/EasyNegativeV2:
    recommended: True
 sd-1/lora/Manhwa-4stylesin1:
    path: https://civitai.com/api/download/models/14973
-   recommended: True
+   recommended: False
 sd-1/lora/Rage Unleashed:
    path: https://civitai.com/api/download/models/124492
-   recommended: True
+   recommended: False
 sd-1/lora/beautiful detailed eyes:
    path: https://civitai.com/api/download/models/6626
-   recommended: True
+   recommended: False
 sd-1/lora/add-more-details:
    path: https://civitai.com/api/download/models/87153
-   recommended: True
+   recommended: False
 sd-1/lora/EyesGen:
    path: https://civitai.com/api/download/models/10243
-   recommended: True
+   recommended: False
 sd-1/lora/detail-tweaker:
    path: https://civitai.com/api/download/models/62833
-   recommended: True
+   recommended: False
 sd-1/lora/badhandv4:
    path: https://civitai.com/api/download/models/20068
    recommended: True
-sd-1/lora/EnvyBetterHandsLoCon:
-   path: https://civitai.com/api/download/models/55199
+sd-1/lora/myself-badhand-v5:
+   path: https://civitai.com/api/download/models/181181
    recommended: True
 sd-1/lora/EasyNegative:
    path: https://civitai.com/api/download/models/9208
    recommended: True
+sd-1/lora/SimpleNegativeanime:
+   path: https://civitai.com/api/download/models/175769
+   recommended: True
+sd-1/lora/ColorizeSliderLoRAe:
+   path: https://civitai.com/api/download/models/172120
+   recommended: True
+sd-1/lora/StyleSwirlMagic:
+   path: https://civitai.com/api/download/models/30926
+   recommended: False
+sd-1/lora/DetailSlider-LoRA:
+   path: https://civitai.com/api/download/models/171989
+   recommended: True
+sd-1/lora/Colorfixandenhanceanimeversion:
+   path: https://civitai.com/api/download/models/136319
+   Recommended: True
+sd-1/lora/midjourneyanime:
+   path: https://civitai.com/api/download/models/105232
+   recommended: True
+sd-1/lora/AissistNegativeEmbedding:
+   Path: https://civitai.com/api/download/models/183923
+   recommended: True
+sd-1/lora/Civitai Safe:
+   path: https://civitai.com/api/download/models/106916
+   recommended: True
 sd-1/vae/vae-ft-mse-840000-ema-pruned:
-   path: https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors
-   recommended: True
+   Path: https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors
+   Recommended: True
 sd-1/vae/Anything-model-VAE-v4.0:
-   path: https://civitai.com/api/download/models/119279
-   recommended: True
-sd-1/vae/Anything-model-VAE-V3.0:
-   path: https://huggingface.co/ckpt/anything-v3.0/resolve/main/Anything-V3.0.vae.pt
-   recommended: True
+   description: Anything-model-VAE-v4.0
+   repo_id: rossiyareich/anything-v4.0-vae
+   Recommended: True
 sd-1/vae/Color101-VAE:
-   path: https://civitai.com/api/download/models/83798
-   recommended: True
+   Path: https://civitai.com/api/download/models/83798
+   Recommended: True
+sd-1/vae/CGrapefruit-VAE:
+   Path: https://huggingface.co/iZELX1/Grapefruit/resolve/main/Grapefruit.vae.pt
+   Recommended: False
 sd-1/vae/Lastpiece VAE:
-   path: https://civitai.com/api/download/models/177582
-   recommended: True
+   Path: https://civitai.com/api/download/models/177582
+   Recommended: False
 sd-1/vae/Kl-f8-anime:
-   path: https://huggingface.co/sp8999/test_VAE/resolve/main/mse840000_klf8anime.vae.pt
-   recommended: True
+   Path: https://huggingface.co/sp8999/test_VAE/resolve/main/mse840000_klf8anime.vae.pt
+   Recommended: True
 sd-1/vae/Kl-f8-anime2:
-   path: https://huggingface.co/sp8999/test_VAE/resolve/main/mse840000_klf8anime_klf8anime2.vae.pt
-   recommended: True
+   Path: https://huggingface.co/sp8999/test_VAE/resolve/main/mse840000_klf8anime_klf8anime2.vae.pt
+   Recommended: True
 sd-1/main/anything-4.0-inpainting:
    repo_id: Sanster/anything-4.0-inpainting
    description: A general use SD-1.5 "anything" model that supports anime and manga styles for inpainting (4.27 GB)
-   recommended: True
-   default: True
+   Recommended: True
+   Default: True
 sd-1/main/Ether-Blu-Mix:
-   path: https://civitai.com/api/download/models/114492
-   recommended: False
+   Path: https://civitai.com/api/download/models/114492
+   Recommended: False
 sd-1/main/DonutHoleMix:
-   path: https://civitai.com/api/download/models/83231
-   recommended: False
+   Path: https://civitai.com/api/download/models/83231
+   Recommended: False
 sd-1/main/ShyakuJXMix:
-   path: https://civitai.com/api/download/models/109132
-   recommended: False
+   Path: https://civitai.com/api/download/models/109132
+   Recommended: False
 sd-1/main/stable-diffusion-v1-5:
    description: Stable Diffusion version 1.5 diffusers model (4.27 GB)
    repo_id: runwayml/stable-diffusion-v1-5
-   recommended: False
-   default: False
+   Recommended: False
+   Default: False
 sd-1/main/stable-diffusion-inpainting:
    description: RunwayML SD 1.5 model optimized for inpainting, diffusers version (4.27 GB)
    repo_id: runwayml/stable-diffusion-inpainting
-   recommended: False
+   Recommended: False
 sd-1/main/waifu-diffusion:
    description: An SD-1.5 model trained on 680k anime/manga-style images (2.13 GB)
    repo_id: hakurei/waifu-diffusion
-   recommended: False
+   Recommended: False
 sd-1/main/darkSushiMixMix_colorful:
-   path: https://civitai.com/api/download/models/56071
-   recommended: True
+   Path: https://civitai.com/api/download/models/56071
+   Recommended: False
 sd-1/main/Pastel-Mix:
-   path: https://civitai.com/api/download/models/6297
-   recommended: False
-sd-1/main/A1:
-   path: https://civitai.com/api/download/models/104137
+   Path: https://civitai.com/api/download/models/6297
+   Recommended: False
+sd-1/main/AzureAnime:
+   Path: https://civitai.com/api/download/models/168036
+   Recommended: True
+any/clip_vision/ip_adapter_sd_image_encoder:
+   repo_id: InvokeAI/ip_adapter_sd_image_encoder
+   description: ip adapte sd image encoder
    recommended: False
