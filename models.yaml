@@ -1,25 +1,25 @@
 # This file predefines a few models that the user may want to install.
 sd-1/controlnet/canny:
    repo_id: lllyasviel/control_v11p_sd15_canny
-   recommended: True
+   Recommended: True
 sd-1/controlnet/inpaint:
    repo_id: lllyasviel/control_v11p_sd15_inpaint
-   recommended: False
+   Recommended: False
 sd-1/controlnet/mlsd:
    repo_id: lllyasviel/control_v11p_sd15_mlsd
-   recommended: False
+   Recommended: False
 sd-1/controlnet/depth:
    repo_id: lllyasviel/control_v11f1p_sd15_depth
-   recommended: False
+   Recommended: False
 sd-1/controlnet/normal_bae:
    repo_id: lllyasviel/control_v11p_sd15_normalbae
-   recommended: False
+   Recommended: False
 sd-1/controlnet/seg:
    repo_id: lllyasviel/control_v11p_sd15_seg
-   recommended: False
+   Recommended: False
 sd-1/controlnet/lineart:
    repo_id: lllyasviel/control_v11p_sd15_lineart
-   recommended: False
+   Recommended: False
 sd-1/controlnet/lineart_anime:
    repo_id: lllyasviel/control_v11p_sd15s2_lineart_anime
    recommended: True
