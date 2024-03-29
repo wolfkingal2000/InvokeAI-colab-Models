@@ -14,7 +14,7 @@ allow_headers:
 - '*'
 log_tokenization: false
 patchmatch: true
-models_dir: models
+models_dir: /content/models
 convert_cache_dir: models/.cache
 legacy_conf_dir: configs
 db_dir: databases
@@ -45,8 +45,8 @@ max_queue_size: 10000
 node_cache_size: 512
 hashing_algorithm: blake3_single
 remote_api_tokens:
-- url_regex: cool-models.com
-  token: my_secret_token
-- url_regex: nifty-models.com
-  token: some_other_token
+- url_regex: huggingface.co
+  token: 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
+- url_regex: civitai.com
+  token: 1e67b122a8a5d46d92b3a00e014466d6
 scan_models_on_startup: false
